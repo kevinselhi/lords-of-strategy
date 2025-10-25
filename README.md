@@ -13,14 +13,4 @@ On the question of whether anyone at the Big 3 is to blame for the global financ
 
 He does offer that “[w]hile a few academic and journalistic voices raised questions about the hastiness of the innovation in the financial sector, there is little evidence of any strategy consultants throwing their bodies across the tracks in an attempt to slow down the process” [316]. Self-sacrifice and quixotic forms of suicide might not have been required to prevent the damage though. It might only have required the major consulting firms to abstain from preaching the wonder of leverage, or voicing some skepticism.
 
-Notes
-
-1. [http://staging.hbp.internetkeep.net/on/wp-content/uploads/2008/12/14942_press_spring-09-catalog.pdf](http://staging.hbp.internetkeep.net/on/wp-content/uploads/2008/12/14942_press_spring-09-catalog.pdf)
-
-2. [http://nacdny.org/PDF/Kiechel_Bio.pdf](http://nacdny.org/PDF/Kiechel_Bio.pdf)
-
-3. [http://www.alumni.hbs.edu/bulletin/2001/october/janussource.html](http://www.alumni.hbs.edu/bulletin/2001/october/janussource.html)
-
-4. [http://www.forbes.com/lists/2009/21/private-companies-09_McKinsey-Co_IPPW.html](http://www.forbes.com/lists/2009/21/private-companies-09_McKinsey-Co_IPPW.html)
-
-5. UBS was famously encouraged to adjust its strategy and expand into the CDO market by McKinsey & Co. and Oliver Wyman: [http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/2792800/UBS-The-crisis-at-the-heart-of-the-Swiss-bank.html](http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/2792800/UBS-The-crisis-at-the-heart-of-the-Swiss-bank.html%C2%A0)
+Notes: 1. [http://staging.hbp.internetkeep.net/on/wp-content/uploads/2008/12/14942_press_spring-09-catalog.pdf](http://staging.hbp.internetkeep.net/on/wp-content/uploads/2008/12/14942_press_spring-09-catalog.pdf) 2. [http://nacdny.org/PDF/Kiechel_Bio.pdf](http://nacdny.org/PDF/Kiechel_Bio.pdf) 3. [http://www.alumni.hbs.edu/bulletin/2001/october/janussource.html](http://www.alumni.hbs.edu/bulletin/2001/october/janussource.html) 4. [http://www.forbes.com/lists/2009/21/private-companies-09_McKinsey-Co_IPPW.html](http://www.forbes.com/lists/2009/21/private-companies-09_McKinsey-Co_IPPW.html) 5. [http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/7920800/UBS-The-Crisis-at-the-heart-of-the-Swiss-bank.html](http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/7920800/UBS-The-Crisis-at-the-heart-of-the-Swiss-bank.html%7C%20www.telegraph.co.uk) NB: My former client, the Union Bank of Switzerland (i.e. UBS), was actively encouraged and lobbied to adjust its strategy and expand into the CDO market by McKinsey & Co. and Oliver Wyman.
