@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Lords of Strategy — Book review by Kevin Selhi</title>
+  <meta name="description" content="Kevin Selhi reviews The Lords of Strategy: The Secret Intellectual History of the New Corporate World by Walter Kiechel III (Harvard Business Press).">
+  <meta name="author" content="Kevin Selhi">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Lords of Strategy — Book review by Kevin Selhi">
+  <meta property="og:description" content="A review of Walter Kiechel III's intellectual history of strategy consulting and the rise of the Big 3.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Lords of Strategy — Book review by Kevin Selhi">
+  <meta name="twitter:description" content="A review of Walter Kiechel III's intellectual history of strategy consulting and the rise of the Big 3.">
+
+  <style>
+    :root {
+      --bg: #faf8f4;
+      --surface: #ffffff;
+      --ink: #1c1a17;
+      --muted: #6b645a;
+      --rule: #e3ddd2;
+      --accent: #9a2515;
+      --accent-soft: #c54a36;
+      --maxw: 40rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14130f;
+        --surface: #1b1a16;
+        --ink: #ece7dd;
+        --muted: #a39a8b;
+        --rule: #34312a;
+        --accent: #e0654f;
+        --accent-soft: #f08368;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", "Iowan Old Style", serif;
+      font-size: clamp(1.05rem, 0.98rem + 0.5vw, 1.2rem);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    /* ---- Masthead ---- */
+    .kicker {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 0 0 0.9rem;
+    }
+
+    header.masthead {
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 1.4rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 1.3rem + 3.4vw, 3rem);
+      line-height: 1.12;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.4rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-style: italic;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 0.95rem + 0.6vw, 1.3rem);
+      margin: 0 0 1.3rem;
+    }
+
+    .byline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 0.95rem;
+      color: var(--ink);
+      margin: 0;
+    }
+    .byline strong { color: var(--accent); }
+
+    .pubmeta {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 0.5rem 0 0;
+      line-height: 1.5;
+    }
+
+    /* ---- Body ---- */
+    article p {
+      margin: 0 0 1.4rem;
+    }
+
+    /* Drop cap on the first paragraph */
+    article > p:first-of-type::first-letter {
+      float: left;
+      font-size: 3.6em;
+      line-height: 0.78;
+      padding: 0.05em 0.1em 0 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    em, i { font-style: italic; }
+
+    .pullquote {
+      margin: 2.2rem 0;
+      padding: 0.4rem 0 0.4rem 1.3rem;
+      border-left: 4px solid var(--accent);
+      font-size: clamp(1.25rem, 1.05rem + 1vw, 1.6rem);
+      line-height: 1.4;
+      font-style: italic;
+      color: var(--accent-soft);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    a:hover { color: var(--accent-soft); }
+
+    /* ---- Notes ---- */
+    .notes {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    .notes h2 {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent);
+      margin: 0 0 1rem;
+    }
+    .notes ol {
+      margin: 0;
+      padding-left: 1.4rem;
+    }
+    .notes li { margin-bottom: 0.7rem; }
+    .notes a { overflow-wrap: anywhere; word-break: break-word; }
+    .nb {
+      margin-top: 1.2rem;
+      font-style: italic;
+    }
+
+    footer.colophon {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--rule);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="kicker">Book Review</p>
+      <h1>The Lords of Strategy</h1>
+      <p class="subtitle">The Secret Intellectual History of the New Corporate World</p>
+      <p class="byline">Reviewed by <strong>Kevin Selhi</strong></p>
+      <p class="pubmeta">
+        By Walter Kiechel III · Harvard Business Press · $26.95 cloth (352 pages) · ISBN 978-1-59139-782-3
+      </p>
+    </header>
+
+    <article>
+      <p>Kiechel, the former managing editor of <em>Fortune</em> and author of <em>Office Hours</em> [published in 1989], saw publication of this book about strategy consulting pushed back several times. Through the years-long delays he managed to more fully chronicle the history of business strategy as both an intellectual discipline and an industry [see notes 1 and 2]. After almost 20 years at <em>Fortune</em>, Kiechel moved to Harvard Business Publishing, where he witnessed up-close the conveyer belt-like manner in which business ideas were submitted by professors and freelancers, then polished and broadcast by the staff of editors at <em>Harvard Business Review</em> [see note 3]. As one consultant whose rate was up to $20,000 per day testified to Kiechel, a well-received article published in <em>HBR</em> could garner one to two years in client projects (or between $7.3 million and $14.6 million worth in consulting fees) for a freelance strategist [243]. Unfortunately for <em>HBR</em>&rsquo;s salaried editors, who helped polish those ideas for publication, they didn&rsquo;t see a cut of the eventual consulting fees.</p>
+
+      <p>For the author, the rise of business strategy as a discipline constitutes &ldquo;the bit-by-bit creation of the first comprehensive paradigm [to pull] together all the elements most vital for a company to take into account if it is to compete, win, and survive&rdquo; [1]. As the assembled elements for a new intellectual foundation came together, it became possible to profitably market strategy consulting services to managers. The four individuals Kiechel most associates with the discipline&rsquo;s maturation include a professor (Michael Porter) who transformed the curriculum at Harvard Business School, the founders (Bruce Henderson and Bill Bain) of two of the three top consulting firms (BCG and Bain), and the most influential managing director (Fred Gluck) in the history of the undisputed industry leader, McKinsey &amp; Co.</p>
+
+      <p>The author begins in the difficult early years of the industry, when Bruce Henderson founded the Management Consulting Division of the Boston Safe Deposit and Trust Company, as its sole employee in 1963. This was the era when concepts such as the &ldquo;experience curve&rdquo; and &ldquo;growth-share matrix&rdquo; were first developed, and consultants struggled to market their ideas to corporate executives. These ideas, now covered in all standard MBA curricula, were developed outside the walls of the academy at the Boston Consulting Group and were later imported by the academy&ndash;after the field of business strategy became better understood and respected.</p>
+
+      <p>Boom times for the industry began around 1982, &ldquo;in an era when it sometimes seemed all the business press could talk about was the superiority of the Japanese,&rdquo; and the year that <em>In Search of Excellence</em> was first published by Tom Peters and Robert Waterman, two McKinsey consultants [144]. At around that time, the leading firm&rsquo;s revenues approached $250 million and by 1987, McKinsey&rsquo;s revenues had doubled to $500 million [260]. By this time, consultants from the three major strategy firms were coaching executives at nearly every one of the Fortune 500 companies on the significance of costs, experience, efficiency, intellectual capital, innovation and the magic of leverage. By 2008, the industry leaders&rsquo; sales were estimated to be $6 billion [see note 4]. By Kiechel&rsquo;s account, only about fifteen to twenty percent of revenue for strategy consulting firms now comes from consulting on strategy [262]. The days of the pure-play strategy consultant and consulting firm are passed. Today, these firms must supplement strategy with services in logistics, technology, and human resource management. And they must deepen their expertise in the needs of particular industries like health care and pension funds.</p>
+
+      <p>On the question of whether anyone at the Big 3 is to blame for the global financial collapse of the late 2000s, Kiechel says, the &ldquo;sharper-elbowed of the Wall Street houses had never had much use for strategy consultants, peopled as the former are with &lsquo;deal guys and the transaction-minded&rsquo;&rdquo; [311]. This statement is silly. Although most of the major investment banks have in-house strategy units, these groups are often populated with Big 3 alumni and many of the major banks made regular use of the strategy firms prior to the crisis [see note 5]. Also, Kiechel is silent on the effect of accounting innovations which increased uncertainty during the panic, many of which were popularized by strategy consultants. This silence speaks volumes.</p>
+
+      <p>He does offer that &ldquo;[w]hile a few academic and journalistic voices raised questions about the hastiness of the innovation in the financial sector, there is little evidence of any strategy consultants throwing their bodies across the tracks in an attempt to slow down the process&rdquo; [316].</p>
+
+      <p class="pullquote">Self-sacrifice and quixotic forms of suicide might not have been required to prevent the damage&hellip; It might only have required the major consulting firms to abstain from preaching the wonder of leverage, or voicing some skepticism.</p>
+
+      <section class="notes" aria-label="Notes">
+        <h2>Notes</h2>
+        <ol>
+          <li><a href="http://staging.hbp.internetkeep.net/on/wp-content/uploads/2008/12/14942_press_spring-09-catalog.pdf" target="_blank" rel="noopener">HBP Spring 2009 catalog (PDF)</a></li>
+          <li><a href="http://nacdny.org/PDF/Kiechel_Bio.pdf" target="_blank" rel="noopener">Walter Kiechel biography (PDF)</a></li>
+          <li><a href="http://www.alumni.hbs.edu/bulletin/2001/october/janussource.html" target="_blank" rel="noopener">HBS Alumni Bulletin, October 2001</a></li>
+          <li><a href="http://www.forbes.com/lists/2009/21/private-companies-09_McKinsey-Co_IPPW.html" target="_blank" rel="noopener">Forbes 2009 — McKinsey &amp; Co.</a></li>
+          <li><a href="http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/7920800/UBS-The-Crisis-at-the-heart-of-the-Swiss-bank.html" target="_blank" rel="noopener">The Telegraph — &ldquo;UBS: The Crisis at the heart of the Swiss bank&rdquo;</a></li>
+        </ol>
+        <p class="nb">NB: My former client, the Union Bank of Switzerland (i.e. UBS), was actively encouraged and lobbied to adjust its strategy and expand into the CDO market by McKinsey &amp; Co. and Oliver Wyman.</p>
+      </section>
+    </article>
+
+    <footer class="colophon">
+      <p>Review by Kevin Selhi. Of <em>The Lords of Strategy</em> by Walter Kiechel III.</p>
+    </footer>
+  </div>
+</body>
+</html>
